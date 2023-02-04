@@ -1,0 +1,16 @@
+/* Add a comment here */
+
+body {
+    font-size: 20px;
+    color: rgb(17, 78, 119);
+    text-align: center;
+    width: 500px
+}
+
+ol, ul {
+	background-color: lightblue;
+}
+
+div {
+    background-color: lightgreen;
+}
