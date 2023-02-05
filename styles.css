@@ -1,16 +1,53 @@
 /* Add a comment here */
+HTML {
+    background: linear-gradient(to right, #ffffff 0%, #a1e099 100%);
+}
+
+
 
 body {
     font-size: 20px;
-    color: rgb(17, 78, 119);
+    color: rgb(57, 64, 68);
     text-align: center;
-    width: 500px
+    width: 100%
 }
 
 ol, ul {
 	background-color: lightblue;
+
 }
 
-div {
-    background-color: lightgreen;
+
+#box1 {
+    outline: none;
+}
+
+#box2 {
+    font-family: Garamond;
+    font-size: 42pt;
+    color: #ffffff;
+    justify-content: center;
+}
+
+#box3 {
+    background-color: white;
+    text-align: justify;
+    padding: 10%;
+}
+
+#container {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    text-align: justify;
+    padding: 5%;
+
+}
+
+#container div {
+    background-color: transparent;
+    text-align: justify;
+    padding: 10px;
+    margin:15px;
+    width:100%;
 }
