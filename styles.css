@@ -3,18 +3,37 @@ HTML {
     background: linear-gradient(to right, #ffffff 0%, #a1e099 100%);
 }
 
+h2 {
+    font-family: garamond;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+
+.button {
+    border: 1px;
+    border-color: #526e4f;
+    background-color: rgb(250, 255, 245);
+    color: rgb(47, 60, 175);
+    font-size: 24;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
 
 
 body {
-    font-size: 20px;
+    font-size: 16px;
+    font-family: arial;
     color: rgb(57, 64, 68);
     text-align: center;
     width: 100%
 }
 
 ol, ul {
-	background-color: lightblue;
-
+	background-color: rgba(255, 255, 255, 0.247);
 }
 
 
@@ -26,14 +45,35 @@ ol, ul {
     font-family: Garamond;
     font-size: 42pt;
     color: #ffffff;
-    justify-content: center;
+    text-align: center;
+    
 }
 
 #box3 {
     background-color: white;
     text-align: justify;
-    padding: 10%;
+    padding: 8%;
+    
 }
+
+#box4 {
+    background-image: url("https://home.adelphi.edu/~ve21375/betta%20fish%20home%201.jpg");
+    width: 100%;
+    height: 250px;
+    font-family: Garamond;
+    font-size: 100pt;
+    color: #ffffff;
+}
+
+#box5 {
+    background-color: #ffffff;
+    color: rgb(57, 64, 68);
+    font-size: 16px;
+    font-family: arial;
+    text-align: center;
+    padding: 8%;
+}
+
 
 #container {
     display: flex;
@@ -41,13 +81,13 @@ ol, ul {
     border: none;
     text-align: justify;
     padding: 5%;
-
 }
 
 #container div {
-    background-color: transparent;
+    background-color: #a1e09927;
     text-align: justify;
     padding: 10px;
     margin:15px;
     width:100%;
+   
 }
